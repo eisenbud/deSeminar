@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	
+<script>
+  MathJax = {
+    loader: {load: ['a11y/semantic-enrich']},
+    options: {
+      sre: {
+        speech: 'shallow'  // one of: 'deep', 'shallow', or 'none'
+      },
+      renderActions: {
+        enrich: {'[+]': [
+          function (doc) {doc.enrich(true)},
+          function (math, doc) {math.enrich(doc, true)}  
+        ]}
+      }
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<head>
+	<title>Seminar on Commutative Algebra and Algebraic Geometry</title> 
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body text="#ffffff" vlink="#d3cf57" link="#ffff00" bgcolor="#000000">
+
+<h1>Seminar on Commutative Algebra and Algebraic Geometry</h1>
+
+<h2>Fall 2023</h2>
+<p>Tuesdays 4-6pm, Evans 748</p>
+<!-- Or if for past editions pages: -->
+<p><a href="index.html">Current edition</a> of this seminar
+</p>
+
+<table>
+  <tr>
+		<th>date</th>
+		<th>speaker</th>
+		<th>title</th>
+		<th>abstract</th>
+	</tr>
+	<tr>
+		<th>8/29</th>
+		<th>Hannah Kerner Larson</th>
+		<th>The embedding theorem in Hurwitz-Brill-Noether theory</th>
+		<td> Abstract: Brill-Noether theory studies the maps of general curves to projective
+spaces. The embedding theorem of Eisenbud and Harris states that a
+general degree \(d\) map \(C\) to \(\mathbb P^r\) is an embedding when \(r\) is at least 3.
+Hurwitz-Brill-Noether theory starts with a curve \(C\) already equipped
+with a fixed map \(C\) to \(\mathbb P^1\) (which often forces \(C\) to be special) and
+then studies the maps of \(C\) to other projective spaces. In this
+setting, the appropriate analogue of the invariants \(d\) and \(r\) is a finer
+invariant called the splitting type. Our embedding theorem determines
+the splitting types \(\vec{e}\) such that a general map of splitting type
+\(\vec{e}\) is an embedding. This is joint work with Kaelin Cook-Powel,
+Dave Jensen, Eric Larson, and Isabel Vogt.</td>
+	</tr>
+	<tr>
+		<th>9/5</th>
+		<th>David Eisenbud</th>
+		<th>Socle Summands in Syzygies</th>
+<td>I'll discuss two open problems about infinite resolutions,
+  explain the "Burch index", 
+  and prove that, if a local Artinian ring has Burch index at least 2, then the 7th syzygy of every module has a summand isomorphic to the
+  residue field. This is joint work with Hai Long Dao.</td>
+	</tr>
+	<tr>
+		<th>9/12</th>
+		<th>Xianglong Ni</th>
+		<th>Weyman's generic free resolutions of length three</th>
+
+<td>One approach to studying the structure of finite free resolutions is to construct and analyze universal examples. Unfortunately, Bruns proved that these examples typically do not exist---but they do if one weakens the standard notion of universality to allow for non-unique specialization. Weyman constructed such "generic" examples for length three resolutions, with a careful handling of this non-uniqueness. Moreover, this apparent defect of the construction actually endows the generic example with additional symmetry, from which a surprising connection to the ADE classification arises. I'll explain how this extra symmetry can be leveraged to better understand Weyman's generic example, and some of its applications to linkage and the structure theory of perfect ideals.
+</td>
+	</tr>
+	<tr>
+		<th>9/19</th>
+		<th>Bernd Ulrich</th>
+		<th>Linkage I</th>
+		<td>The first of a series of talks explaining
+		  the elements of this geometric theory that began
+		  with the classification of curves in \(\mathbb P^3\).
+		  The series will continue with an exposition of
+		  still-unpublished work giving new invariants of
+		linkage in higher dimensions.</td>
+	</tr>
+	<tr>
+		<th>9/26</th>
+		<th>(No seminar: DE out of town)</th>
+		<th colspan="2"></th>
+	</tr>
+	<tr>
+		<th rowspan="2">10/3</th>
+		<th>Bernd Ulrich</th>
+		<th>Linkage II</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Daigo Ito</th>
+		<th>Structures of the derived category on an elliptic curve</th>
+		<td>Although the definition of derived categories (of coherent sheaves on a variety) requires some understanding of homological algebra, derived categories themselves can be treated geometrically in many sense. In this talk, I will first talk about how and why people use derived categories in algebraic geometry and then I will briefly explain how we can indeed define derived categories. Then, as an example, we will explore the derived category on an elliptic curve. If time permits, I will also compare it with the derived category on a projective line.</td>
+	</tr>
+	<tr>
+		<th rowspan="2">10/10</th>
+		<th>Bernd Ulrich</th>
+		<th>Linkage III</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Robin Hartshorne</th>
+		<th>On the maximum genus of space curves</th>
+		<td>The study of space curves goes well back into the 19th century, with the great papers of Max Noether and Georges Halphen in 1882. The determination of all possible pairs \((d,g)\) of degree and genus of space curves was correctly stated by Halphen in his paper, but not proved until the work of Gruson and Peskine in 1982. I will focus on just one part of this problem, namely, what is the maximum genus of a space curve of degree \(d\)? In its unadorned form, this question has a simple answer, but when you add consideration of the degree of a surface containing the curve, it is more complicated, and still not completely known. I will discuss the current state of this problem, also known as Halphen’s problem.</td>
+	</tr>
+	<tr>
+		<th rowspan="2">10/17</th>
+		<th>Bernd Ulrich</th>
+		<th>Linkage IV</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th>Xianglong Ni</th>
+		<th>Gorenstein ideals of codimension four</th>
+		<td>The structure of Gorenstein ideals of codimension three is described by the Buchsbaum-Eisenbud structure theorem. In codimension four, there is a mostly settled conjecture that such an ideal of deviation two (the simplest non-trivial case) is a hypersurface section of one in codimension three. But such ideals with more generators remain mysterious. Unlike in codimension three, these ideals need not be in the linkage class of a complete intersection (licci). Kustin conjectured that the licci property could be detected by a sequence of "higher order products" generalizing the multiplication on the free resolution of such an ideal, but he only defined a few of these products. I will explain a conjecture, coming from Weyman's work on generic resolutions, that gives a new perspective on the preceding ideas. Then I will explain how similar ideas have been used to investigate previously unexplored territory in codimension three.</td>
+	</tr>
+	<tr>
+		<th>10/24</th>
+		<th>Bernd Ulrich</th>
+		<th>Linkage V</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th rowspan="2">10/31</th>
+		<th>Bernd Ulrich</th>
+		<th>Linkage VI</th>
+	</tr>
+	<tr>
+		<th>Daigo Ito</th>
+		<th>Symmetries on derived categories and reconstruction of elliptic curves</th>
+		<td>We know the structure of the derived category of coherent sheaves on an elliptic curve very well and moreover it has been known that an elliptic curve can be reconstructed from categorical structures of its derived category. In this talk, we will discuss a version of reconstruction of elliptic curves that was announced this year, using symmetry of derived categories coming from their autoequivalences. Moreover, if time permits, we will see possible generalization and obstructions to higher dimensional cases, which were discussed in my recent paper in relation with monoidal structures on derived categories.</td>
+	</tr>
+	<tr>
+		<th>11/8 (Wednesday) 11AM, Evans 748</th>
+		<th>Feiyang Lin</th>
+		<th>Measures of irrationality for hypersurfaces of large degree</th>
+		<td>Determining whether a variety is rational is a classical and longstanding problem in birational geometry. A paper by Bastianelli et al. proposes a different angle to this question by considering various measures of irrationality that quantify how far a variety is from being rational. Under this framework, rather than asking whether a variety is rational, it makes sense to ask: what are the values of these measures of irrationality of a variety?
+I will outline the proof of the following result of Bastianelli et al.: Let \( \mathrm{irr}(X) \) denote the least degree of dominant rational maps \( X \) to \( \mathbb P^{\dim X} \). Then for \( X \) a very general smooth hypersurface in \( \mathbb P^{n+1} \) of degree \( d \geq 2n+1 \), the irrationality degree \( \mathrm{irr}(X) \) is \( d-1 \), and any rational map achieving the irrationality degree is given by projection from a point if \( d \geq 2n+2 \). This recovers a theorem of M. Noether about the gonality of smooth plane curves. 
+The key insight is that positivity of the canonical bundle and Mumford's technique of induced differentials allows us to say the fibers of a dominant map to \( \mathbb P^n \) must lie on a line, which converts the problem to a study of first order line congruences in \( \mathbb P^{n+1} \). In the case of surfaces in \( \mathbb P^3 \) and threefolds in \( \mathbb P^4 \), an earlier paper of Bastianelli, Cortini and de Poi characterizes explicitly which hypersurfaces are not very general in this sense. If time permits, I will also discuss some open problems related to this circle of ideas. We work over the complex numbers throughout.</td>
+	</tr>
+	<tr>
+		<th>11/14</th>
+		<th>Emily Clader</th>
+		<th>Permutohedral complexes and curves with cyclic action</th>
+		<td>Although the moduli space of genus-zero curves is not toric, it shares an intriguing amount of the combinatorial structure that a toric variety would enjoy. In fact, by adjusting the moduli problem slightly, one finds a moduli space that is indeed toric, known as Losev—Manin space. The associated polytope is the permutohedron, which has a wealth of other connections: notably, to the structure of the symmetric group and to the combinatorics of matroids. Batyrev and Blume generalized this story by constructing a type-B version of Losev—Manin space whose associated polytope is a signed permutohedron that relates to the group of signed permutations and the combinatorics of delta-matroids. I will discuss joint work with C. Damiolini, C. Eur, D. Huang, S. Li, and R. Ramadas in which we carry out the next stage of generalization, defining a family of moduli spaces of rational curves with \( \mathbb{Z}_r \)-action that can be encoded by a "permutohedral complex" for a more general complex reflection group, and which relates to the combinatorics of multimatroids.</td>
+	</tr>
+	<tr>
+		<th>11/21</th>
+		<th>(Thanksgiving week)</th>
+		<th colspan="2"></th>
+	</tr>
+	<tr>
+		<th rowspan="2">11/28</th>
+		<th>Joseph Hlavinka</th>
+		<th>An Introduction to the Theory of Moduli</th>
+		<td>Given a functorial association of a collection of geometric objects to every variety, when is this functor actually represented by a (nice) scheme \( S \)? More pointedly, what can such representability properties tell us about \( S \), and what can such a scheme tell us about the so-called "moduli problem" we began with? This talk will be a crash course in answering such questions!</td>
+	</tr>
+	<tr>
+		<th>Sterling Saint Rain</th>
+		<th>The Bruns-Eisenbud-Evans Generalized Principal Ideal Theorem</th>
+		<td>Krull’s Altitude Theorem is a classic result which tells us that the height of an ideal of a Noetherian ring \( R \) is bounded above by the number of its generators. Over the years, this statement has been generalized a number of times; the subject of this talk will be describing and proving the much stronger Bruns-Eisenbud-Evans Principal Ideal Theorem. In addition, we will recall the fundamentals of determinantal ideals, ideals generated by the \( t \times t \) minors of an \( m \times n \) matrix over \( R \), and discuss Bruns’ sharpening of the Eagon-Northcott bound in the special case \( I_t(\phi) \neq R \) with \( I_{t+1}(\phi) = 0\).</td>
+	</tr>
+	<tr>
+		<th>12/5--last seminar of the semester</th>
+		<th>Swapnil Garg</th>
+		<th>Why projectivity is not affine-local</th>
+		<td>I will first show why the definition of a projective morphism is not affine-local. I will then explain the blow-up construction and why it would likely help us construct a counterexample, and then exhibit Hironaka's famous example of a smooth proper non-projective complex threefold. Finally, I will discuss why nevertheless, affine-locality holds in dimension 1 and (assuming smoothness) in dimension 2.</td>
+	</tr>
+	<tr>
+
+</table>

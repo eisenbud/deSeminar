@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+  MathJax = {
+    loader: {load: ['a11y/semantic-enrich']},
+    options: {
+      sre: {
+        speech: 'shallow'  // one of: 'deep', 'shallow', or 'none'
+      },
+      renderActions: {
+        enrich: {'[+]': [
+          function (doc) {doc.enrich(true)},
+          function (math, doc) {math.enrich(doc, true)}  
+        ]}
+      }
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<head>
+	<title>Seminar on Commutative Algebra and Algebraic Geometry</title> 
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body text="#ffffff" vlink="#d3cf57" link="#ffff00" bgcolor="#000000">
+
+<h1>Seminar on Commutative Algebra and Algebraic Geometry</h1>
+
+<h2>Spring 2024</h2>
+<p>Tuesdays 4-6pm, Evans 748</p>
+<p>
+    <a href="index.html">Current edition</a> of this seminar
+</p>
+
+<table>
+  <tr>
+		<th>date</th>
+		<th>speaker</th>
+		<th>title</th>
+		<th>abstract</th>
+	</tr>
+	<tr>
+		<th rowspan="2">1/16</th>
+		<th>Bernd Sturmfels</th>
+		<th>Taylor Polynomials of Rational Functions</th>
+		<td>A Taylor variety consists of all fixed order Taylor polynomials of rational functions, where the number of variables and degrees of numerators and denominators are fixed. In one variable, this leads us to Padé approximation and rank constraints on Hankel matrices. We study the dimension and defining ideals of Taylor varieties. In three and more variables, there exist defective Taylor varieties, and we explain this with Fröberg's Conjecture in commutative algebra. This is joint work with Aldo Conca, Simone Naldi and Giorgio Ottaviani.</td>
+	</tr>
+	<tr>
+		<th>Hai Long Dao</th>
+		<th>The dual of the canonical module and applications</th>
+		<td>Let \( R \) be a Noetherian ring with canonical module \( W \). We will use the \( R \)-dual of \( W \) to define new invariants of \( R \). We will discuss some surprising connections of these invariants to additive number theory and extremal components of Hilbert schemes.</td>
+	</tr>
+	<tr>
+		<th>1/23</th>
+		<th></th>
+		<th></th>
+		<td>(note: SLMath intro workshop)</td>
+	</tr>
+	<tr>
+		<th rowspan="2">1/30</th>
+		<th>Sameera Vemulapalli</th>
+		<th>The relationship between scrollar invariants of curves and successive minima of orders in number fields, and related counting problems</th>
+		<td>Let \( n \geq 2 \) be an integer. To a degree \( n \) cover of \( \mathbb P^1 \), we may attach \( n-1 \) integers called the scrollar invariants. Similarly, to an order in a degree \( n \) number field, we may attach \( n-1 \) real numbers called the successive minima. In this talk I will explain the relationship between scrollar invariants of curves and successive minima of orders in number fields. Surprisingly, we don't know the answers to many fundamental questions about these invariants.
+
+			In this talk, I prove bounds on these invariants. When \( n < 6 \), I'll also discuss a related counting question: how many orders in degree \( n \) number fields are there with bounded discriminant and prescribed successive minima? If time permits, we will also discuss some partial results on which scrollar invariants arise from smooth curves.</td>
+	</tr>
+	<tr>
+			<th>Frank-Olaf Schreyer</th>
+			<th>Extensions of varieties, the adjunction process for surfaces and maximal extensions of paracanonical curves of genus 6.</th>
+			<td>Let \( X \) be a subvariety of \( \mathbb P^n \). An \( e \)-extension \( Y \) is a subvariety of \( \mathbb P^{n+e} \), which is not a cone,
+such that there exists a regular sequence \( y_1,\ldots,y_e \) of linear forms for the homogeneous coordinate ring \( S_Y \) of \( Y \) 
+such that \( S_Y/(y_1,\ldots,y_e) = S_X \) is the coordinate ring of \( X \).
+
+In this talk I will discribe a computationally easy to use method to compute maximal extensions of certain varieties and illustrate this method by describing maximal extensions of paracanonical curves \( C \) of genus 6.
+
+A paracanonical curve is a curve embedded by a line bundle \( \mathscr L \), which  differs from the canonical bundle
+by a topologically trivial line bundle \( \eta \), i.e, an \( \eta \) in \( \operatorname{Pic}^0(C) \). In case of genus 6, the general ones are curves of degree 10 in \( \mathbb P^4 \) with a cubic linear resolution \( S \leftarrow S^{10}(-3) \leftarrow S^{15}(-4) \leftarrow S^6(-5) \leftarrow 0 \).
+To identify the smooth 1-extensions \( Y \) in \( \mathbb P^5 \) of \( C \)  we use the adjunction process of Sommese and Van de Ven for surfaces.</td>
+	</tr>
+	<tr>
+		<th>2/6</th>
+		<th></th>
+		<th></th>
+		<td>(note: SLMath intro workshop)</td>
+	</tr>
+	<tr>
+		<th rowspan="2">2/13</th>
+		<th>Anand Patel</th>
+		<th>Counting cubic surfaces</th>
+		<td>The moduli space of cubic surfaces is 4-dimensional, and hence in a 4-dimensional family of such surfaces we expect to find the general cubic finitely many times.  Using equivariant geometry I will describe a general formula which, when evaluated over most families, computes this number.  This is joint work with Anand Deopurkar and Dennis Tseng.</td>
+	</tr>
+	<tr>
+		<th>Claudia Miller</th>
+		<th>Residue field summands of syzygies via canonical resolutions</th>
+		<td>In joint work with Michael DeBellevue, we give extensions of results of Dao and Eisenbud showing the existence of direct summands isomorphic to the residue field in all high syzygies of any module whenever the ring satisfies a certain condition. This implies that some amount of linearity is always present in the resolutions. Our method of proof is via the relative bar resolution of Iyengar and gives some idea of why these summands should exist in such abundance and why they appear from a certain degree onward. In addition, we go on to find an exponential number of these explicitly in the Golod setting using instead the bar resolution formed from A-infinity resolutions due to Burke.</td>
+	</tr>
+	<tr>
+		<th rowspan="2">2/20</th>
+		<th>Lizzie Pratt</th>
+		<th>The Chow-Lam Form</th>
+		<td>The classical Chow form encodes any projective variety by a single equation. In this talk, I will introduce the Chow-Lam form, which is a generalization of the Chow form to subvarieties of arbitrary Grassmannians. Like the Chow form, it has useful computational properties: for example, it gives us universal formulas for certain linear projections between Grassmannians. Such formulas were pioneered by Thomas Lam for positroid varieties in the study of amplituhedra. This is joint work with Bernd Sturmfels.</td>
+	</tr>
+	<tr>
+		<th>Hannah Kerner Larson</th>
+		<th>Cohomology of moduli spaces of curves</th>
+		<td>The moduli space \( M_g \) of genus g curves (or Riemann surfaces) is a central object of study in algebraic geometry. Its cohomology is important in many fields. For example, the cohomology of \( M_g \) is the same as the cohomology of the mapping class group, and is also related to spaces of modular forms. Using its properties as a moduli space, Mumford defined a distinguished subring of the cohomology of \( M_g \) called the tautological ring. The definition of the tautological ring was later extended to the compactification \( \overline{M_g} \) and the moduli spaces with marked points \( \overline{M_{g,n}} \). While the full cohomology ring of \( \overline{M_{g,n}} \) is quite mysterious, the tautological subring is relatively well understood, and conjecturally completely understood. In this talk, I'll ask the question: which cohomology groups \( H^k(\overline{M_{g,n}}) \) are tautological? And when they are not, how can we better understand them? This is joint work with Samir Canning and Sam Payne.</td>
+	</tr>
+	<tr>
+		<th rowspan="2">2/27</th>
+		<th>Jack Jeffries</th>
+		<th>Local cohomology of determinantal nullcones</th>
+		<td>The coordinate ring  \( R \) of the variety of \( m\times n \) matrices with rank at most \( t \) can be realized in a natural way as an invariant ring of a polynomial ring \( S \); the same is true if one replaces "\( m\times n \) matrices" by "\( n\times n \) symmetric matrices" or "\( n\times n \) alternating matrices". This realization as a ring of invariants explains many of the nice algebraic properties enjoyed by determinantal rings, at least in characteristic zero, since \( R \) is a retract of \( S \) via the Reynolds operator. Motivated by understanding the relationship between \( R \) and \( S \) in arbitrary characteristic, we consider the ideal generated by positive degree invariants \( R_+ \) inside of the ambient polynomial ring \( S \). For example, certain varieties of complexes as introduced by Buchsbaum and Eisenbud occur like so. In this talk, we will discuss some aspects of the behavior of local cohomology with support in these ideals in different characteristics and some applications. This is based on work in progress with Pandey, Singh, and Walther, and earlier joint work with Hochster, Pandey, and Singh.</td>
+	</tr>
+	<tr>
+		<th>Uli Walther</th>
+		<th>Matroidal Polynomials and their Singularities</th>
+		<td>(joint with Dan Bath) We introduce a class of polynomials attached to matroids (or flags of matroids) and the choice of a base field that includes various other polynomials that have appeared in the literature, including Kirchhoff polynomials, configuration polynomials, matroid basis polynomials, and multivariable Tutte polynomials. The common property of matroidal polynomials is a Deletion-Contraction formula.
+
+In the talk I will explain various geometric properties of  matroidal polynomials; in particular, for connected matroids they have rational singularities over the complex numbers, and (if homogeneous coming from a single matroid) are \( F \)-regular in positive characteristic. 
+
+The idea of the proof in characteristic zero can be extended to polynomials called Feynman integrands, and which show up in certain integrals in scattering theory. In particular, these do have rational singularities as well under certain genericity hypotheses on masses and momenta. 
+
+The plan is to explain all these words, and hint at the proofs, which involve jets and the Frobenius.</td>
+	</tr>
+	<tr>
+		<th rowspan="2">3/5</th>
+		<th>Yairon Cid-Ruiz</th>
+		<th>Numerical criteria for integral dependence and their behavior in families</th>
+		<td>A classical theorem of Rees tells us that, in an equidimensional and universally catenary Noetherian local ring, two zero-dimensional ideals \( I \subset J \) have the same integral closure if and only if they have the same Hilbert-Samuel multiplicity. This seminal result sparked much interest and has become an important research topic in commutative algebra, singularity theory, and algebraic geometry. For instance, an important consequence is Teissier’s principle of specialization of integral dependence. We will present new criteria for the integrality and birationality of an extension of graded algebras in terms of the general notion of polar multiplicities due to Kleiman and Thorup. We will discuss the behavior in families of ideals of certain invariants studied by Gaffney and Gassler: the polar multiplicities and Segre numbers of ideals. I will report on ongoing joint work with Claudia Polini and Bernd Ulrich. </td>
+	</tr>
+	<tr>
+		<th>Benjamin Briggs</th>
+		<th>A-infinity tricks in local algebra</th>
+		<td>This talk will be mostly expository: the plan is to explain what an A-infinity algebra is and how you might use them to prove things about commutative rings. I'll focus on how they can be used the construct Iyengar and Burke's bar resolution that achieves Serre's bound on the Betti numbers of a module, what they have to do with the Eisenbud-Shamash resolution as well, and, if there's time, I'll talk about some new analogues of these resolutions, also using A-infinity tricks. This last part is joint work with James Cameron, Janina Letz, and Josh Pollitz on something we call Koszul homomorphisms.</td>
+	</tr>
+	<tr>
+		<th>3/12</th>
+		<th></th>
+		<th></th>
+		<td>Note: DE out of town</td>
+	</tr>
+	<tr>
+		<th rowspan="2">3/19</th>
+		<th>Frank Sottile</th>
+		<th>Welschinger Signs and the Wronski Map (New conjectured reality)</th>
+		<td>A general real rational plane curve \( C \) of degree \( d \) has \( 3(d-2) \) flexes and \( (d-1)(d-2)/2 \) complex double points. Those double points lying in \( \mathbb{RP}^2 \) are either nodes or solitary points. The Welschinger sign of \( C \) is \( (-1)^s \), where \( s \) is the number of solitary points. When all flexes of \( C \) are real, its parameterization comes from a point on the Grassmannian under the Wronskii map, and every parameterized curve with those flexes is real (this is the Mukhin-Tarasov-Varchenko Theorem). Thus to \( C \) we may associate the local degree of the Wronskii map, which is also \( 1 \) or \( -1 \). My talk will discuss work with Brazelton and McKean towards a possible conjecture that that these two signs associated to \( C \) agree, and the challenges to gathering evidence for this.</td>
+	</tr>
+	<tr>
+		<th>Liana Sega</th>
+		<th>Relations between Poincare series for quasi-complete intersection homomorphisms</th>
+		<td>Quasi-complete intersection (q.c.i.) homomorphisms are surjective homomorphisms of local rings for which the Koszul homology on a minimal generating set of the kernel is an exterior algebra. We study base change results for Poincare series along a q.c.i. homomorphism in situations that extend results known for complete intersection (c.i.) homomorphisms. The main new result is joint work with Josh Pollitz, and generalizes a well-known result of Shamash for c.i. homomorphisms which makes use of systems of higher homotopies. Our proof develops base change results involving Poincare series over the Koszul complex.</td>
+	</tr>
+	<tr>
+		<th rowspan="2">3/26</th>
+		<th>Mohamed Barakat</th>
+		<th>Doctrine-specific ur-algorithms</th>
+		<td>Various constructions of categories have a universal property expressing the freeness/initiality of the construction within a specific categorical doctrine. Expressed in an algorithmic framework, it turns out that this universal property is in a certain sense a doctrine-specific “ur-algorithm” from which various known categorical constructions/algorithms (including spectral sequences of bicomplexes) can be derived in a purely computational way. This can be viewed as a categorical version of the Curry-Howard correspondence to extract programs from proofs.</td>
+	</tr>
+	<tr>
+		<th>Holger Brenner</th>
+		<th>Module schemes in invariant theory</th>
+		<td>Let \( G \) be a finite group acting linearly on the polynomial ring with invariant ring \( R \). If the action is small, then a classical result of Auslander gives in dimension two a correspondence between linear representations of \( G \) and maximal Cohen-Macaulay \( R \)-modules. We establish a correspondence  for all linear actions, in particular for actions of a group generated by reflections, between representations and objects over the invariant ring by looking at quotient module schemes (up to modification) instead of the modules of covariants.</td>
+	</tr>
+	<tr>
+		<th rowspan="2">4/2</th>
+		<th>Mike Stillman</th>
+		<th>Kuramoto oscillators: dynamical systems meet algebra</th>
+		<td>Coupled oscillators appear in a large number of applications: e.g. in biological, chemical sciences, neuro science, power grids, and many more fields.  They appear in nature: fireflies flashing in sync with each other is one fun situation.
+
+In 1974, Yoshiki Kuramoto proposed a simple, yet surprisingly effective model for oscillators.  We consider homogeneous Kuramoto systems (we will define these notions!).  They are determined from a finite graph.  In this talk, we describe some of what is known about long term behavior of such systems (do the oscillators self-synchronize? or are there other, "exotic" solutions?), and then relate these systems to systems of polynomial equations.  We use algebra, computations in algebraic geometry, and algebraic geometry to study equilibrium solutions to these systems.  We will see how computations using algebraic geometry and my computer algebra system Macaulay2 finds all graphs with at most 8 vertices
+(i.e. 8 oscillators) which have exotic solutions.
+
+Note: we assume essentially NO dynamical systems in this talk! The parts of the talk that are new represent joint work with Heather Harrington and Hal Schenck, and also Steve Strogatz and Alex Townsend.</td>
+	</tr>
+	<tr>
+		<th>Craig Huneke</th>
+		<th>Number of Generators of Licci Ideals</th>
+		<td>This talk will discuss a somewhat surprising conjectured bound on the number of generators of a licci (in the linkage class of a complete intersection) ideal, namely that the number of generators of a homogeneous licci ideal is bounded above by the greatest last twist in a minimal graded free resolution of the ideal. This is continuing joint work with Claudia Polini and Bernd Ulrich.
+
+We will give a brief introduction to licci ideals, discuss where this conjectured bound comes from, why it is useful, and then describe various cases in which we have been able to prove the bound, as time permits. These cases include monomial licci ideals of finite colength, ideals with a maximal regular sequence of quadrics, and licci ideals with nearly pure resolutions.  In the non-homogeneous case, we state a related conjecture and introduce new classes of licci ideals.
+
+The techniques used are varied, including Golod rings, Boij-Soederberg theory, and the Eisenbud-Green-Harris conjecture.</td>
+	</tr>
+	<tr>
+		<th>4/9</th>
+		<th></th>
+		<th></th>
+		<td>(notes: DE out of town. SLMath NCAG recent developments workshop)</td>
+	</tr>
+	<tr>
+		<th>4/16</th>
+		<th></th>
+		<th></th>
+		<td>(note: SLMath COMA recent developments workshop)</td>
+	</tr>
+	<tr>
+		<th rowspan="2">4/23</th>
+		<th>Frank Sottile</th>
+		<th>Galois groups in Enumerative Geometry</th>
+		<td>In 1870 Jordan explained how Galois theory can be applied to problems from enumerative geometry, with the group
+ encoding intrinsic structure of the problem.  Earlier Hermite showed the equivalence of Galois groups with geometric monodromy groups, and in 1979 Harris initiated the modern study of Galois groups of enumerative problems.  He posited that a Galois group should be `as large as possible' in that it will be the largest group preserving internal symmetry in the geometric problem.
+
+   I will describe this background and discuss some work of many to compute, study, and use Galois groups of geometric
+ problems, including those that arise in applications of algebraic geometry.  </td>
+	</tr>
+	<tr>
+		<th>Mats Boij</th>
+		<th>The Kähler package for finite geometries and modular lattices</th>
+		<td>In this joint work with Bill Huang, June Huh and Greg Smith we give very explicit proofs of the existence of a Kähler package for the graded Möbius algebra associated to the lattice of subspaces of a vector space over a finite field \( \mathbb F_q \). There are fascinating connections to other areas such as the theory of Gelfand pairs and generalized Radon transforms.</td>
+	</tr>
+	<tr>
+		<th rowspan="2">4/30 (in 939)</th>
+		<th>Mahrud Sayrafi</th>
+		<th>Splitting of vector bundles on toric varieties</th>
+		<td>In 1964, Horrocks proved that a vector bundle on a projective space splits as a sum of line bundles if and only if it has no intermediate cohomology. Generalizations of this criterion, under additional hypotheses, have been proven for other toric varieties, for instance by Eisenbud-Erman-Schreyer for products of projective spaces, by Schreyer for Segre-Veronese varieties, and Ottaviani for Grassmannians and quadrics. This talk is about a splitting criterion for arbitrary smooth projective toric varieties, as well as an algorithm for finding indecomposable summands of sheaves and modules in the more general setting of Mori dream spaces.</td>
+	</tr>
+	<tr>
+		<th>Feiyang Lin</th>
+		<th>Finding special line bundles on special tetragonal curves</th>
+		<td>There is a canonical way to associate to a degree 4 cover of \( \mathbb P^1 \) two vector bundles \( E \) and \( F \), which give rise to a stratification of the Hurwitz space \( H_{4,g} \). It is natural to ask whether the Brill-Noether theory of tetragonal curves is controlled by this data. I will describe a procedure for producing a particular line bundle on tetragonal covers in special strata, which is expected to be special in the Hurwitz-Brill-Noether sense. The main technique is the realization of an inflation of vector bundles on \( \mathbb P^1 \) as a blow-up and blow-down of the associated projective bundle.</td>
+	</tr>
+	<tr>
+		<th rowspan="2">5/7 (in 939)</th>
+		<th>Christopher O'Neill</th>
+		<th>Classifying numerical semigroups using polyhedral geometry</th>
+		<td>A numerical semigroup is a subset of the natural numbers that is closed under addition.  There is a family of polyhedral cones \( C_m \), called Kunz cones, for which each numerical semigroup with smallest positive element \( m \) corresponds to an integer point in \( C_m \).  It has been shown that if two numerical semigroups correspond to points in the same face of \( C_m \), they share many important properties, such as the number of minimal generators and the Betti numbers of their defining toric ideals.  In this way, the faces of the Kunz cones naturally partition the set of all numerical semigroups into "cells" within which any two numerical semigroups have similar algebraic structure.  In this talk, we survey what is known about the face structure of Kunz cones, and how studying Kunz cones can inform the classification of numerical semigroups. </td>
+	</tr>
+	<tr>
+		<th>Aldo Conca</th>
+		<th>Two bounds on Castelnuovo-Mumford regularity</th>
+		<td>I will report on bounds on the Castelnuovo-Mumford regularity for ideals with polynomial parametrization (joint work with F.Cioffi) and for ideals associated with general subspace arrangements (joint work with M.Tsakiris).</td>
+	</tr>
+</table>

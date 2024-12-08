@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+  MathJax = {
+    loader: {load: ['a11y/semantic-enrich']},
+    options: {
+      sre: {
+        speech: 'shallow'  // one of: 'deep', 'shallow', or 'none'
+      },
+      renderActions: {
+        enrich: {'[+]': [
+          function (doc) {doc.enrich(true)},
+          function (math, doc) {math.enrich(doc, true)}  
+        ]}
+      }
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<head>
+	<title>Seminar on Commutative Algebra and Algebraic Geometry</title> 
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body text="#ffffff" vlink="#d3cf57" link="#ffff00" bgcolor="#000000">
+<h1>Seminar on Commutative Algebra and Algebraic Geometry</h1>
+<h2>Choose a semester </h2>
+<br>
+    <a href="./Fall2022.html"> <h2> Fall 2022</h2></a>
+<br>
+    <a href="./Spring2023.html"> <h2> Spring 2023</h2></a>
+<br>
+    <a href="./Fall2023.html"> <h2> Fall 2023 </h2></a>
+<br>
+    <a href="./Spring2024.html"> <h2> Spring 2024 </h2></a>
+<br>
+    <a href="./Fall2024.html"> <h2> Fall 2024 </h2></a>
+<br>
+    <a href="./Spring2025.html"> <h2> Spring 2025 </h2></a>
+<br>
+
+</body>
+</html>

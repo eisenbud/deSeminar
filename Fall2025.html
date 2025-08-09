@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Template for a semester schedule page -->
+<!-- 
+    The table is created assuming that there are two talks every week:
+        <tr>
+            <th rowspan="2">Date</th>
+            <th>Speaker 1</th>
+            <th>Title 1</th>
+            <td>Abstract 1</td>
+        </tr>
+        <tr>
+            <th>Speaker 2</th>
+            <th>Title 2</th>
+            <td>Abstract 2</td>
+        </tr>
+    one can adapt it for weeks with only one talk like so:
+        <tr>
+            <th>Date</th>
+            <th>Speaker</th>
+            <th>Title</th>
+            <td>Abstract</td>
+        </tr>
+-->
+
+<script>
+  MathJax = {
+    loader: {load: ['a11y/semantic-enrich']},
+    options: {
+      sre: {
+        speech: 'shallow'  // one of: 'deep', 'shallow', or 'none'
+      },
+      renderActions: {
+        enrich: {'[+]': [
+          function (doc) {doc.enrich(true)},
+          function (math, doc) {math.enrich(doc, true)}  
+        ]}
+      }
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<head>
+	<title>Seminar on Commutative Algebra and Algebraic Geometry</title> 
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body text="#ffffff" vlink="#d3cf57" link="#ffff00" bgcolor="#000000">
+
+	<a href="index.html"><h1>Seminar on Commutative Algebra and Algebraic Geometry</h1></a>
+
+<h2>Fall 2025</h2>
+<p>Tuesdays 4-6, Evans 939</p>
+
+<p>All semesters:
+	<a href="Spring2025.html">Spring 2025</a>, 
+	<a href="Fall2024.html">Fall 2024 </a>, 
+	<a href="Spring2024.html">Spring 2024</a>, 
+	<a href="Fall2023.html">Fall 2023</a>, 
+	<a href="Spring2023.html">Spring 2023</a>, 
+	<a href="Fall2022.html">Fall 2022</a>
+</p>
+
+
+<table>
+    <tr>
+          <th>date</th>
+          <th>speaker</th>
+          <th>title</th>
+          <th>abstract</th>
+    </tr>
+    <tr>
+        <th rowspan="2">8/26</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+    <tr>
+        <th rowspan="2">9/2</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">9/9</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">9/16</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">9/23</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">9/30</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">10/7</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">10/14</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">10/21</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">10/28</th>
+        <th>Sam Grushevsky</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">11/4</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">11/11</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">11/18</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">11/25</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">12/2</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">12/9</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">12/16</th>
+        <th>Speaker 1</th>
+        <th>Title 1</th>
+        <td>Abstract 1</td>
+    </tr>
+    <tr>
+        <th>Speaker 2</th>
+        <th>Title 2</th>
+        <td>Abstract 2</td>
+    </tr>
+  
+</table>
+

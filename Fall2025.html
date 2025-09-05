@@ -1,262 +1,434 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-
-<!-- Template for a semester schedule page -->
-<!-- 
-    The table is created assuming that there are two talks every week:
-        <tr>
-            <th rowspan="2">Date</th>
-            <th>Speaker 1</th>
-            <th>Title 1</th>
-            <td>Abstract 1</td>
-        </tr>
-        <tr>
-            <th>Speaker 2</th>
-            <th>Title 2</th>
-            <td>Abstract 2</td>
-        </tr>
-    one can adapt it for weeks with only one talk like so:
-        <tr>
-            <th>Date</th>
-            <th>Speaker</th>
-            <th>Title</th>
-            <td>Abstract</td>
-        </tr>
--->
-
-<script>
-  MathJax = {
-    loader: {load: ['a11y/semantic-enrich']},
-    options: {
-      sre: {
-        speech: 'shallow'  // one of: 'deep', 'shallow', or 'none'
-      },
-      renderActions: {
-        enrich: {'[+]': [
-          function (doc) {doc.enrich(true)},
-          function (math, doc) {math.enrich(doc, true)}  
-        ]}
-      }
-    }
-  };
-</script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-
 <head>
-	<title>Seminar on Commutative Algebra and Algebraic Geometry</title> 
-	<link rel="stylesheet" href="styles.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Seminar on Commutative Algebra and Algebraic Geometry</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.6">
+  <style type="text/css">
+    body {background-color: #000000}
+    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #ffff0b; -webkit-text-stroke: #ffff0b}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 14.0px}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 14.0px}
+    span.s1 {text-decoration: underline ; font-kerning: none}
+    span.s2 {font-kerning: none}
+    span.s3 {font-kerning: none; color: #ffffff; -webkit-text-stroke: 0px #ffffff}
+    span.s4 {text-decoration: underline ; font-kerning: none; color: #ffff0b; -webkit-text-stroke: 0px #ffff0b}
+    table.t1 {border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #ffffff #ffffff #ffffff #ffffff; border-collapse: collapse}
+    td.td1 {width: 27.3px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #ffffff #ffffff #ffffff #ffffff; padding: 5.3px 5.3px 5.3px 5.3px}
+    td.td2 {width: 94.4px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #ffffff #ffffff #ffffff #ffffff; padding: 5.3px 5.3px 5.3px 5.3px}
+    td.td3 {width: 42.7px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #ffffff #ffffff #ffffff #ffffff; padding: 5.3px 5.3px 5.3px 5.3px}
+    td.td4 {width: 572.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #ffffff #ffffff #ffffff #ffffff; padding: 5.3px 5.3px 5.3px 5.3px}
+  </style>
 </head>
+<body>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; color: #ffff0b; -webkit-text-stroke: #ffff0b"><span class="s1"><a href="file:///Users/cameronchang/Documents/GitHub/deSeminar/index.html"><b>Seminar on Commutative Algebra and Algebraic Geometry</b></a></span></h1>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Times; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s2"><b>Fall 2025</b></span></h2>
+<p class="p3"><span class="s2">Tuesdays 4-6, Evans 939</span></p>
+<p class="p4"><span class="s3">All semesters: <a href="file:///Users/cameronchang/Documents/GitHub/deSeminar/Spring2025.html"><span class="s4">Spring 2025</span></a>, <a href="file:///Users/cameronchang/Documents/GitHub/deSeminar/Fall2024.html"><span class="s4">Fall 2024 </span></a>, <a href="file:///Users/cameronchang/Documents/GitHub/deSeminar/Spring2024.html"><span class="s4">Spring 2024</span></a>, <a href="file:///Users/cameronchang/Documents/GitHub/deSeminar/Fall2023.html"><span class="s4">Fall 2023</span></a>, <a href="file:///Users/cameronchang/Documents/GitHub/deSeminar/Spring2023.html"><span class="s4">Spring 2023</span></a>, <a href="file:///Users/cameronchang/Documents/GitHub/deSeminar/Fall2022.html"><span class="s4">Fall 2022</span></a><span class="Apple-converted-space"> </span></span></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>date</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>speaker</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>title</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p5"><span class="s2"><b>abstract</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>9/2</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>UNUSUAL Time/Place: 5pm in Evans 1015: JM Landsberg (Texas A&amp;M; Simons Institute)</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Tensors of minimal border rank</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">I will describe a problem motivated by computer science that quickly leads to questions about smoothability of zero dimensional schemes and new and interesting algebraic structures. In geometric language, the \(m\)-th secant variety to the Segre variety \(Sec_m(Seg(\mathbb{P}^{m-1} \times \mathbb{P}^{m-1}\times \mathbb{P}^{m-1}))\) is an orbit closure and one would like to know what points are on the boundary, or more coarsely, what are the components of the boundary? This is joint work with F. Gesmundo, J. Jelisiejew, T. Mandziuk, and A. Pal.</span></p>
+      </td>
+    <tr>
+      <td rowspan="1" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>9/9</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>David Eisenbud</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Summands of syzygies: a family of examples</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">A large class of interesting rings called  Golod rings  includes things like \(R = S/I^d\) for \(d >1\), where \(S\) is a regular local (or graded polynomial) ring containing a field \(k\) of characteristic 0 and \(I \) is a (homogeneous) ideal. 
 
-<body text="#ffffff" vlink="#d3cf57" link="#ffff00" bgcolor="#000000">
+Hai Long Dao and I were surprised to discover (first experimentally) that over a Golod ring, some sequence of syzygy modules of k contain k as a direct summand, and we gave a complete family of examples of the possible sequences. To do this we needed to understand a natural minimal S-free resolution of I^2 when I is generated by a regular sequence. 
 
-	<a href="index.html"><h1>Seminar on Commutative Algebra and Algebraic Geometry</h1></a>
-
-<h2>Fall 2025</h2>
-<p>Tuesdays 4-6, Evans 939</p>
-
-<p>All semesters:
-	<a href="Spring2025.html">Spring 2025</a>, 
-	<a href="Fall2024.html">Fall 2024 </a>, 
-	<a href="Spring2024.html">Spring 2024</a>, 
-	<a href="Fall2023.html">Fall 2023</a>, 
-	<a href="Spring2023.html">Spring 2023</a>, 
-	<a href="Fall2022.html">Fall 2022</a>
-</p>
-
-
-<table>
-    <tr>
-          <th>date</th>
-          <th>speaker</th>
-          <th>title</th>
-          <th>abstract</th>
+In this talk I'll explain this problem and its solution using a simple part  of the representation theory of the general linear group.
+</span></p>
+      </td>
     </tr>
     <tr>
-        <th rowspan="1">9/2</th>
-        <th>UNUSUAL Time/Place: 5pm in Evans 1015: JM Landsberg (Texas A&ampM; Simons Institute)</th>
-        <th>Tensors of minimal border rank</th>
-        <td>I will describe a problem motivated by computer science that quickly leads to  questions about smoothability of zero dimensional schemes and new and interesting algebraic structures. In geometric language, the \(m\)-th secant variety to the Segre variety \(Sec_m(Seg(\mathbb{P}^{m-1} \times \mathbb{P}^{m-1}\times \mathbb{P}^{m-1}))\) is an orbit closure and one would like to know what points are on the boundary, or more coarsely, what are the components of the boundary? This is joint work with F. Gesmundo, J. Jelisiejew, T. Mandziuk, and A. Pal.</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">9/9</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
-    </tr>
-    <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">9/16</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>9/16</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
     </tr>
     <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">9/23</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
-    </tr>
-    <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">9/30</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
     </tr>
     <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">10/7</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
-    </tr>
-    <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">10/14</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>9/23</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
     </tr>
     <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">10/21</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
-    </tr>
-    <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">10/28</th>
-        <th>Sam Grushevsky</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
     </tr>
     <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">11/4</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
-    </tr>
-    <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">11/11</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>9/30</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
     </tr>
     <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">11/18</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
-    </tr>
-    <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">11/25</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
     </tr>
     <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">12/2</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
-    </tr>
-    <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
-    </tr>
-
-    <tr>
-        <th rowspan="2">12/9</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>10/7</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
     </tr>
     <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
     </tr>
-
     <tr>
-        <th rowspan="2">12/16</th>
-        <th>Speaker 1</th>
-        <th>Title 1</th>
-        <td>Abstract 1</td>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>10/14</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
     </tr>
     <tr>
-        <th>Speaker 2</th>
-        <th>Title 2</th>
-        <td>Abstract 2</td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
     </tr>
-  
+    <tr>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>10/21</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>10/28</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Sam Grushevsky</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>11/4</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>11/11</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>11/18</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>11/25</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>12/2</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>12/9</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" valign="middle" class="td1">
+        <p class="p5"><span class="s2"><b>12/16</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 1</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 1</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 1</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s2"><b>Speaker 2</b></span></p>
+      </td>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s2"><b>Title 2</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p6"><span class="s2">Abstract 2</span></p>
+      </td>
+    </tr>
+  </tbody>
 </table>
-
+</body>
+</html>
